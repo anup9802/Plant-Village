@@ -1,0 +1,4 @@
+# Plant-Village
+Plant Disease Diagnostics (38 classes), using CNN
+
+Human society is facing increasing demand of foods and it is estimated that by 2050 the corps demand will shoot up to 70% more than that in 2016 (http://arxiv.org/abs/1511.08060). Thus, we need to implement efficient and smart technologies in food production. Identifying and treating the Infectious diseases are two of the main bottlenecks. Interestingly, identifying the disease classes can be efficiently taken care by employing deep learning (CNN) based method. This project aims to classify 38 diseases. The CNN based model was trained on quite large ‘plant village’ dataset and could achieve accuracy of 0.98 in train dataset, while the validation accuracy is 0.96. Only the best model is represented in the Jupyter Notebook. Transfer learning (ResNet50 & InceptionV3) was also attempted and found to be highly computationally expensive, with respect to computational resources available to me.
